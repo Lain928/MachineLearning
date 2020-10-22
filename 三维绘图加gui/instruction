@@ -1,0 +1,5 @@
+
+环境：
+python 3.5 pyinstaller matplotlib
+python3.7使用pyinstaller 不兼容，生成对话框后不能正常使用
+
