@@ -59,6 +59,9 @@ def test1():
     print(clf.feature_importances_) #输出的为每一列类别在决策树分支中的重要性
 
     feature_name = ['酒精','苹果酸','灰','灰的碱性','镁','总酚','类黄酮','非黄烷类酚类','花青素','颜色强度','色调','od280/od315稀释葡萄酒','脯氨酸']
+    # 将属性名称和重要度进行组合
+    feature_import= [*zip(feature_name,clf.feature_importances_)]
+    print(feature_import)
 
     # # 5 画树
     # dot_data = tree.export_graphviz(clf
@@ -77,8 +80,6 @@ def test1():
     # 特征重要性 那个特征对我们的决策树分类重要
     # clf.feature_importances_
     #
-    # 将属性名称和重要度进行组合
-    # feature_import= [*zip(feature_name,clf.feature_importances_)]
     # clf.apply(xtest) # 返回的每个测试样本所在的叶子节点的索引
     # clf.predict(xtest) # 返回每个测试样本的分类回归结果
 test1()
