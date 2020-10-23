@@ -1,0 +1,15 @@
+多文件打包
+命令格式如下，下命令为一条命令，为方便显示做了分行处理：
+
+pyinstaller [主文件] -p [其他文件1] -p [其他文件2] 
+--hidden-import [自建模块1] 
+--hidden-import [自建模块2]
+# 以上为一整条命令
+以上文图中结构为例，在根目录打开命令窗口，输入命令：
+
+pyinstaller main.py -p mysql.py -p other.py --hidden-import mysql --hidden-import other
+
+作者：裤子太长
+链接：https://www.jianshu.com/p/c99577b9c901
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
