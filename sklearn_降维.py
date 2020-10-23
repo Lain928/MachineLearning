@@ -107,5 +107,4 @@ def test1():
     for i in range(10):
         ax[0,i].imshow(faces.images[i,:,:],cmap="binary_r")
         ax[1,i].imshow(X_inverse[i].reshape(62,47),cmap="binary_r")
-test1()
 
