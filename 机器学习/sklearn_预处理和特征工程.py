@@ -82,7 +82,7 @@ scaler.inverse_transform(x_std)
 ##################
 '''
 from sklearn.impute import SimpleImputer
-data = pd.read_csv(r"Resources\Narrativedata.csv",index_col=0)
+data = pd.read_csv(r"../Resources/Narrativedata.csv", index_col=0)
 # print(data.info()) #代表统计的信息值 缺失值不进行统计
 # print(data.shape[0])
 
