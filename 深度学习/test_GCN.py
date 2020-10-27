@@ -49,7 +49,7 @@ WEIGHT_DACAY = 5e-4
 EPOCHS = 50
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-features = np.eye(34, dtype=np.float) # 特征信息矩阵， 34维单位矩阵
+features = np.eye(34, dtype=np.float) # 特征信息矩阵， 34维单位矩阵 因为俱乐部的每个节点没有特征信息，所以将特征信息设置为单位矩阵
 print(features)
 
 y = np.zeros(G.number_of_nodes())
@@ -69,7 +69,7 @@ adj = np.zeros((34, 34))  # 邻阶矩阵
 for k, v in G.adj.items():
     for item in v.keys():
         adj[k][item] = 1
-adj = norm(adj)
+adj = norm(adj) # 将邻接矩阵归一化，每行相加为1，保证节点的特征矩阵不会发生变化
 
 
 features = torch.tensor(features, dtype=torch.float).to(DEVICE)
@@ -101,9 +101,9 @@ def draw():
     nx.draw(G, pos, with_labels=True, node_color=[[0.5, 0.5, 0.5]])
     plt.show()
 draw()
-# r = net(adj, features).cpu().detach().numpy()
-# fig = plt.figure()
-# for i in range(34):
-#     plt.scatter(r[i][0], r[i][1], color="r" if y[i] == 0 else 'b')
-# plt.show()
+r = net(adj, features).cpu().detach().numpy()
+fig = plt.figure()
+for i in range(34):
+    plt.scatter(r[i][0], r[i][1], color="r" if y[i] == 0 else 'b')
+plt.show()
 

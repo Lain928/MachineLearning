@@ -25,8 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="记录pytorch的一些用法">
+    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="构建深度学习和机器学习文件夹，并添加图卷积神经网络代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_pyqt5/instruction.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/instruction.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/test_GCN.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/test_GCN.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +47,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/三维绘图加gui/code.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/sklearn_降维.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/sklearn_逻辑回归.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/机器学习/sklearn_降维.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/机器学习/sklearn_逻辑回归.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pytorch学习/test.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/sklearn_预处理和特征工程.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/机器学习/sklearn_预处理和特征工程.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test_pyqt5/test.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/sklearn_随机森林.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/sklearn_决策树.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/机器学习/sklearn_随机森林.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/深度学习/test_GCN.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/机器学习/sklearn_决策树.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test_pyqt5/ui/untitled.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/sklearn_k_means.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/机器学习/sklearn_k_means.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1jDNvFWbfjviuMQWiVzNKInAAcD" />
   <component name="ProjectViewState">
@@ -68,31 +71,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\MachineLearning\机器学习" />
       <recent name="D:\Code\MachineLearning\ximid" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
-    <configuration name="code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/三维绘图加gui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/三维绘图加gui/code.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test_GCN">
     <configuration name="sklearn_逻辑回归" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,6 +160,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_GCN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/深度学习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/深度学习/test_GCN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tttt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_GCN" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.tttt" />
         <item itemvalue="Python.using_pyqt5" />
-        <item itemvalue="Python.code" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603710714762</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="构建深度学习和机器学习文件夹，并添加图卷积神经网络代码">
+      <created>1603718781867</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603718781867</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,7 +422,8 @@
     <MESSAGE value="使用pyqt5进行弹道数据工具的制作" />
     <MESSAGE value="多文件打包说明" />
     <MESSAGE value="记录pytorch的一些用法" />
-    <option name="LAST_COMMIT_MESSAGE" value="记录pytorch的一些用法" />
+    <MESSAGE value="构建深度学习和机器学习文件夹，并添加图卷积神经网络代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="构建深度学习和机器学习文件夹，并添加图卷积神经网络代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="524" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603710087400">
@@ -434,38 +446,38 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="555" y="250" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1603421927567" />
-    <state width="1528" height="224" key="GridCell.Tab.0.bottom" timestamp="1603711080145">
+    <state width="1528" height="224" key="GridCell.Tab.0.bottom" timestamp="1603720377886">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="224" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1603711080145" />
-    <state width="1528" height="224" key="GridCell.Tab.0.center" timestamp="1603711080145">
+    <state width="1528" height="224" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1603720377886" />
+    <state width="1528" height="224" key="GridCell.Tab.0.center" timestamp="1603720377886">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="224" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1603711080145" />
-    <state width="1528" height="224" key="GridCell.Tab.0.left" timestamp="1603711080144">
+    <state width="1528" height="224" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1603720377886" />
+    <state width="1528" height="224" key="GridCell.Tab.0.left" timestamp="1603720377886">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="224" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1603711080144" />
-    <state width="1528" height="224" key="GridCell.Tab.0.right" timestamp="1603711080145">
+    <state width="1528" height="224" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1603720377886" />
+    <state width="1528" height="224" key="GridCell.Tab.0.right" timestamp="1603720377886">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="224" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1603711080145" />
+    <state width="1528" height="224" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1603720377886" />
     <state x="284" y="60" key="SettingsEditor" timestamp="1603437972575">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="284" y="60" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1603437972575" />
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1603710723911">
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1603718970731">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1603710723911" />
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1603718970731" />
     <state x="580" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603336086544">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="580" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1549.831@0.0.1549.831" timestamp="1603336086544" />
-    <state x="478" y="203" key="git4idea.merge.GitPullDialog" timestamp="1603335953407">
+    <state x="478" y="203" key="git4idea.merge.GitPullDialog" timestamp="1603718933018">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="478" y="203" key="git4idea.merge.GitPullDialog/0.0.1549.831@0.0.1549.831" timestamp="1603335953407" />
+    <state x="478" y="203" key="git4idea.merge.GitPullDialog/0.0.1549.831@0.0.1549.831" timestamp="1603718933018" />
     <state x="437" y="152" width="672" height="678" key="search.everywhere.popup" timestamp="1603435608195">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
