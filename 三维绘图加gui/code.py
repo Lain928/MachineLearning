@@ -10,14 +10,13 @@ plt.rcParams['axes.unicode_minus'] = False
 
 
 frameT = Tk()
-frameT.geometry('500x200+400+200')
+frameT.geometry('500x150+400+200')
 frameT.title('选择需要输入处理的文件')
 frame = Frame(frameT)
 frame.pack(padx=10, pady=10)  # 设置外边距
 frame1 = Frame(frameT)
 frame1.pack(padx=10, pady=10)
 v1 = StringVar()
-#ent = Entry(frame, width=50, textvariable=v1).pack(fill=X, side=LEFT)  # x方向填充,靠左
 
 
 def fileopen():
@@ -44,11 +43,10 @@ def paint_3d(path):
 
 def match():
     paint_3d(v1.get())
-    pass
 
 
+ent = Entry(frame, width=40, textvariable=v1).pack(fill=X, side=LEFT)
 btn = Button(frame, width=20, text='选择文件', font=("宋体", 14), command=fileopen).pack(fil=X, padx=10)
-ent = Entry(frame, width=50, textvariable=v1).pack(fill=X, side=LEFT)  # x方向填充,靠左
 ext = Button(frame1, width=10, text='运行', font=("宋体", 14), command=match).pack(fill=X, side=LEFT)
 etb = Button(frame1, width=10, text='退出', font=("宋体", 14), command=frameT.quit).pack(fill=Y, padx=10)
 frameT.mainloop()
