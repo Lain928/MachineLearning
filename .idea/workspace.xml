@@ -25,12 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="修改">
+    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="pyqt5添加radiobtn按键，选择数据类型">
+      <change beforePath="$PROJECT_DIR$/.idea/MachineLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MachineLearning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pyqt5/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pyqt5/ui/untitled.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pyqt5/ui/untitled.ui" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/ui/untitled.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/三维绘图加gui/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/三维绘图加gui/code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_pyqt5/instruction.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/instruction.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -364,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603780247885</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="pyqt5添加radiobtn按键，选择数据类型">
+      <created>1603859682980</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1603859682980</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,7 +417,8 @@
     <MESSAGE value="记录pytorch的一些用法" />
     <MESSAGE value="构建深度学习和机器学习文件夹，并添加图卷积神经网络代码" />
     <MESSAGE value="修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+    <MESSAGE value="pyqt5添加radiobtn按键，选择数据类型" />
+    <option name="LAST_COMMIT_MESSAGE" value="pyqt5添加radiobtn按键，选择数据类型" />
   </component>
   <component name="WindowStateProjectService">
     <state x="524" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603710087400">
@@ -434,46 +441,46 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="555" y="250" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1603799090471" />
-    <state width="1528" height="157" key="GridCell.Tab.0.bottom" timestamp="1603859564782">
+    <state width="1528" height="157" key="GridCell.Tab.0.bottom" timestamp="1603933905636">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="157" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1603859564782" />
-    <state width="1528" height="157" key="GridCell.Tab.0.center" timestamp="1603859564782">
+    <state width="1528" height="157" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1603933905636" />
+    <state width="1528" height="157" key="GridCell.Tab.0.center" timestamp="1603933905636">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="157" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1603859564782" />
-    <state width="1528" height="157" key="GridCell.Tab.0.left" timestamp="1603859564782">
+    <state width="1528" height="157" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1603933905636" />
+    <state width="1528" height="157" key="GridCell.Tab.0.left" timestamp="1603933905636">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="157" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1603859564782" />
-    <state width="1528" height="157" key="GridCell.Tab.0.right" timestamp="1603859564782">
+    <state width="1528" height="157" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1603933905636" />
+    <state width="1528" height="157" key="GridCell.Tab.0.right" timestamp="1603933905636">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="157" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1603859564782" />
-    <state width="1528" height="264" key="GridCell.Tab.1.bottom" timestamp="1603859033849">
+    <state width="1528" height="157" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1603933905636" />
+    <state width="1528" height="264" key="GridCell.Tab.1.bottom" timestamp="1603864937580">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="264" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1603859033849" />
-    <state width="1528" height="264" key="GridCell.Tab.1.center" timestamp="1603859033849">
+    <state width="1528" height="264" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1603864937580" />
+    <state width="1528" height="264" key="GridCell.Tab.1.center" timestamp="1603864937580">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="264" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1603859033849" />
-    <state width="1528" height="264" key="GridCell.Tab.1.left" timestamp="1603859033849">
+    <state width="1528" height="264" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1603864937580" />
+    <state width="1528" height="264" key="GridCell.Tab.1.left" timestamp="1603864937580">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="264" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1603859033849" />
-    <state width="1528" height="264" key="GridCell.Tab.1.right" timestamp="1603859033849">
+    <state width="1528" height="264" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1603864937580" />
+    <state width="1528" height="264" key="GridCell.Tab.1.right" timestamp="1603864937580">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="264" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1603859033849" />
-    <state x="284" y="60" key="SettingsEditor" timestamp="1603799086061">
+    <state width="1528" height="264" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1603864937580" />
+    <state x="284" y="60" key="SettingsEditor" timestamp="1603933939907">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="284" y="60" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1603799086061" />
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1603780257770">
+    <state x="284" y="60" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1603933939907" />
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1603859691312">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1603780257770" />
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1603859691312" />
     <state x="580" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603336086544">
       <screen x="0" y="0" width="1549" height="831" />
     </state>

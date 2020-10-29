@@ -8,3 +8,4 @@ pyinstaller [主文件] -p [其他文件1] -p [其他文件2]
 以上文图中结构为例，在根目录打开命令窗口，输入命令：
 
 pyinstaller main.py -p mysql.py -p other.py --hidden-import mysql --hidden-import other
+pyinstaller test.py -p ./ui/untitled.py --hidden-import untitled
