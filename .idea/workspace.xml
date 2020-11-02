@@ -25,11 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="pyqt5添加radiobtn按键，选择数据类型">
-      <change beforePath="$PROJECT_DIR$/.idea/MachineLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MachineLearning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="pyqt5打包说明文档更新">
+      <change afterPath="$PROJECT_DIR$/test_pyqt5/下拉框测试.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pyqt5/instruction.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/instruction.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_pyqt5/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_pyqt5/ui/untitled.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/ui/untitled.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_pyqt5/ui/untitled.ui" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/ui/untitled.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,7 @@
     <setting file="file://$PROJECT_DIR$/机器学习/sklearn_降维.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/机器学习/sklearn_逻辑回归.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pytorch学习/test.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_pyqt5/下拉框测试.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/机器学习/sklearn_预处理和特征工程.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test_pyqt5/test.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/机器学习/sklearn_随机森林.py" root0="SKIP_INSPECTION" />
@@ -76,6 +78,27 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.test">
+    <configuration name="下拉框测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Code\MachineLearning\test_pyqt5\下拉框测试.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,27 +112,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/三维绘图加gui/code.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sklearn_随机森林" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sklearn_随机森林.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,34 +183,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tttt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/三维绘图加gui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/三维绘图加gui/tttt.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.下拉框测试" />
         <item itemvalue="Python.code" />
         <item itemvalue="Python.test_GCN" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.tttt" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603859682980</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="pyqt5打包说明文档更新">
+      <created>1603934375336</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1603934375337</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -418,7 +406,8 @@
     <MESSAGE value="构建深度学习和机器学习文件夹，并添加图卷积神经网络代码" />
     <MESSAGE value="修改" />
     <MESSAGE value="pyqt5添加radiobtn按键，选择数据类型" />
-    <option name="LAST_COMMIT_MESSAGE" value="pyqt5添加radiobtn按键，选择数据类型" />
+    <MESSAGE value="pyqt5打包说明文档更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="pyqt5打包说明文档更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="524" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603710087400">
@@ -441,22 +430,22 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="555" y="250" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1603799090471" />
-    <state width="1528" height="157" key="GridCell.Tab.0.bottom" timestamp="1603933905636">
+    <state width="1528" height="215" key="GridCell.Tab.0.bottom" timestamp="1604286079092">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="157" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1603933905636" />
-    <state width="1528" height="157" key="GridCell.Tab.0.center" timestamp="1603933905636">
+    <state width="1528" height="215" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1604286079092" />
+    <state width="1528" height="215" key="GridCell.Tab.0.center" timestamp="1604286079092">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="157" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1603933905636" />
-    <state width="1528" height="157" key="GridCell.Tab.0.left" timestamp="1603933905636">
+    <state width="1528" height="215" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1604286079092" />
+    <state width="1528" height="215" key="GridCell.Tab.0.left" timestamp="1604286079092">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="157" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1603933905636" />
-    <state width="1528" height="157" key="GridCell.Tab.0.right" timestamp="1603933905636">
+    <state width="1528" height="215" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1604286079092" />
+    <state width="1528" height="215" key="GridCell.Tab.0.right" timestamp="1604286079092">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="157" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1603933905636" />
+    <state width="1528" height="215" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1604286079092" />
     <state width="1528" height="264" key="GridCell.Tab.1.bottom" timestamp="1603864937580">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
@@ -477,10 +466,10 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="284" y="60" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1603933939907" />
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1603859691312">
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1603934385081">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1603859691312" />
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1603934385081" />
     <state x="580" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603336086544">
       <screen x="0" y="0" width="1549" height="831" />
     </state>

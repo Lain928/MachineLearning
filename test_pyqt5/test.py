@@ -24,6 +24,24 @@ class Win(QWidget,tt.Ui_Form):
         self.pushButton_2.clicked.connect(self.paint_3d)
         self.pushButton_3.clicked.connect(self.close)
 
+        # 下拉框
+        self.getvalue_x = 'X'
+        self.getvalue_y = 'Y'
+        self.getvalue_z = 'Z'
+        self.comboBox_x.addItems(['X', 'Y', 'Z'])
+        self.comboBox_y.addItems(['X', 'Y', 'Z'])
+        self.comboBox_z.addItems(['X', 'Y', 'Z'])
+        # 信号
+        # x
+        self.comboBox_x.currentIndexChanged[str].connect(self.print_value_x) # 条目发生改变，发射信号，传递条目内容
+        # self.comboBox_x.currentIndexChanged[int].connect(self.print_value_x)  # 条目发生改变，发射信号，传递条目索引
+        # y
+        self.comboBox_y.currentIndexChanged[str].connect(self.print_value_y) # 条目发生改变，发射信号，传递条目内容
+        # self.comboBox_y.currentIndexChanged[int].connect(self.print_value_y)  # 条目发生改变，发射信号，传递条目索引
+        #z
+        self.comboBox_z.currentIndexChanged[str].connect(self.print_value_z) # 条目发生改变，发射信号，传递条目内容
+        # self.comboBox_z.currentIndexChanged[int].connect(self.print_value_z)  # 条目发生改变，发射信号，传递条目索引
+
 
     def getfilepath(self):
         # 获取文件
@@ -72,19 +90,28 @@ class Win(QWidget,tt.Ui_Form):
         datasets.columns = ['X', 'Y', 'Z']
 
         if self.radioLLA.isChecked()==True:
-            xdata = datasets.loc[:, 'X']
-            ydata = datasets.loc[:, 'Y']
-            zdata = datasets.loc[:, 'Z']
+            xdata = datasets.loc[:, self.getvalue_x]
+            ydata = datasets.loc[:, self.getvalue_y]
+            zdata = datasets.loc[:, self.getvalue_z]
         if self.radioECEF.isChecked()==True:
             xdata,ydata,zdata = self.ecef_lla(datasets)
 
         fig = plt.figure()
         ax = fig.gca(projection='3d')
         ax.plot(xdata, ydata, zdata)
-        ax.set_xlabel('经度')
-        ax.set_ylabel('维度')
-        ax.set_zlabel('高度')
+        ax.set_xlabel(self.getvalue_x)
+        ax.set_ylabel(self.getvalue_y)
+        ax.set_zlabel(self.getvalue_z)
         plt.show()
+
+
+    def print_value_x(self, i):
+        self.getvalue_x = i
+    def print_value_y(self, i):
+        self.getvalue_y = i
+    def print_value_z(self, i):
+        self.getvalue_z = i
+
 
 if __name__=='__main__':
     app=QApplication(sys.argv)

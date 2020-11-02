@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>483</width>
-    <height>172</height>
+    <width>572</width>
+    <height>233</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,10 +16,10 @@
   <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>0</y>
-     <width>461</width>
-     <height>141</height>
+     <x>33</x>
+     <y>3</y>
+     <width>511</width>
+     <height>221</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -45,6 +45,87 @@
          <string>ECEF</string>
         </property>
        </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>x:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_x">
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>19</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>y:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_y">
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>19</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>z:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_z">
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>19</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
       </item>
      </layout>
     </item>
