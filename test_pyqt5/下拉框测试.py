@@ -20,6 +20,7 @@ class ComboxDemo(QWidget):
         self.cb.addItem('Python')
         # 多个添加条目
         self.cb.addItems(['Java', 'C#', 'PHP'])
+        self.cb.setCurrentIndex(2)  # 设置默认值
 
         # 信号
         self.cb.currentIndexChanged[str].connect(self.print_value) # 条目发生改变，发射信号，传递条目内容

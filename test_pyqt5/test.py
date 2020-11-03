@@ -31,6 +31,10 @@ class Win(QWidget,tt.Ui_Form):
         self.comboBox_x.addItems(['X', 'Y', 'Z'])
         self.comboBox_y.addItems(['X', 'Y', 'Z'])
         self.comboBox_z.addItems(['X', 'Y', 'Z'])
+        # 下拉框默认选项
+        self.comboBox_x.setCurrentIndex(0)  # 设置默认值
+        self.comboBox_y.setCurrentIndex(1)  # 设置默认值
+        self.comboBox_z.setCurrentIndex(2)  # 设置默认值
         # 信号
         # x
         self.comboBox_x.currentIndexChanged[str].connect(self.print_value_x) # 条目发生改变，发射信号，传递条目内容
