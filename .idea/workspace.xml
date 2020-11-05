@@ -25,12 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="pyqt5添加下拉框选项">
-      <change afterPath="$PROJECT_DIR$/test_pyqt5/ui/child.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pyqt5/ui/child.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pyqt5/ui/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pyqt5/ui/main.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pyqt5/主窗口子窗口.py" afterDir="false" />
+    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="pyqt5子窗口和父窗口自建的数据操作">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_pyqt5/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_pyqt5/下拉框测试.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/下拉框测试.py" afterDir="false" />
@@ -82,8 +77,8 @@
       <recent name="D:\Code\MachineLearning\ximid" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.主窗口子窗口">
-    <configuration name="下拉框测试 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.下拉框测试">
+    <configuration name="下拉框测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="下拉框测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="主窗口子窗口" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,11 +107,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_pyqt5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Code\MachineLearning\test_pyqt5\下拉框测试.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_pyqt5/主窗口子窗口.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,12 +204,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.code" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.主窗口子窗口" />
+      <item itemvalue="Python.下拉框测试" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.下拉框测试" />
         <item itemvalue="Python.主窗口子窗口" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.下拉框测试 (1)" />
-        <item itemvalue="Python.下拉框测试" />
         <item itemvalue="Python.code" />
       </list>
     </recent_temporary>
@@ -391,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604286191049</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="pyqt5子窗口和父窗口自建的数据操作">
+      <created>1604385119599</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1604385119599</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,9 +448,14 @@
     <MESSAGE value="pyqt5添加radiobtn按键，选择数据类型" />
     <MESSAGE value="pyqt5打包说明文档更新" />
     <MESSAGE value="pyqt5添加下拉框选项" />
-    <option name="LAST_COMMIT_MESSAGE" value="pyqt5添加下拉框选项" />
+    <MESSAGE value="pyqt5子窗口和父窗口自建的数据操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="pyqt5子窗口和父窗口自建的数据操作" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="230" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604556678157">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="230" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1549.831@0.0.1549.831" timestamp="1604556678157" />
     <state x="524" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603710087400">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
@@ -464,22 +476,22 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="555" y="250" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1604296954270" />
-    <state width="1528" height="164" key="GridCell.Tab.0.bottom" timestamp="1604385061631">
+    <state width="1528" height="142" key="GridCell.Tab.0.bottom" timestamp="1604565524443">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="164" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1604385061631" />
-    <state width="1528" height="164" key="GridCell.Tab.0.center" timestamp="1604385061631">
+    <state width="1528" height="142" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1604565524443" />
+    <state width="1528" height="142" key="GridCell.Tab.0.center" timestamp="1604565524442">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="164" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1604385061631" />
-    <state width="1528" height="164" key="GridCell.Tab.0.left" timestamp="1604385061631">
+    <state width="1528" height="142" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1604565524442" />
+    <state width="1528" height="142" key="GridCell.Tab.0.left" timestamp="1604565524442">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="164" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1604385061631" />
-    <state width="1528" height="164" key="GridCell.Tab.0.right" timestamp="1604385061631">
+    <state width="1528" height="142" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1604565524442" />
+    <state width="1528" height="142" key="GridCell.Tab.0.right" timestamp="1604565524443">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="164" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1604385061631" />
+    <state width="1528" height="142" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1604565524443" />
     <state width="1528" height="264" key="GridCell.Tab.1.bottom" timestamp="1603864937580">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
@@ -500,10 +512,10 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="284" y="60" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1603933939907" />
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1604286201370">
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1604385153928">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1604286201370" />
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1604385153928" />
     <state x="580" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603336086544">
       <screen x="0" y="0" width="1549" height="831" />
     </state>

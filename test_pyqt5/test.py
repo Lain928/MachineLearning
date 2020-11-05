@@ -58,6 +58,7 @@ class Win(QWidget,tt.Ui_Form):
         for i in range(datasets.shape[0]):
             xdata = datasets.loc[i, 'X']
             ydata = datasets.loc[i, 'Y']
+
             zdata = datasets.loc[i, 'Z']
 
             F = 1 / 298.257
