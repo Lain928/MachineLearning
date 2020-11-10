@@ -25,13 +25,24 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="pyqt5">
-      <change afterPath="$PROJECT_DIR$/test_pyqt5/mytestqt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pyqt5/instruction.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/instruction.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pyqt5/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pyqt5/ui/untitled.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/ui/untitled.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pyqt5/ui/untitled.ui" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/ui/untitled.ui" afterDir="false" />
+    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="pyqt5 工作内容修改 添加选项操作">
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/代码/可视化动图.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/代码/可视化动态图.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/代码/演员请就位2弹幕数据.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/代码/演员请就位2弹幕数据分析.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/代码/腾讯视频弹幕.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/代码/豆瓣短评数据.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/数据/weibo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/数据/第一期上集.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/数据/第一期下集.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/数据/第三期上集.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/数据/第三期下集.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/数据/第二期上集.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/数据/第二期下集.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/数据/第五期上集.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/数据/第五期下集.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/数据/第四期上集.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/演员请就位2代码+数据/数据/第四期下集.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -430,7 +441,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604565568902</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="pyqt5 工作内容修改 添加选项操作">
+      <created>1604975054594</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1604975054594</updated>
+    </task>
+    <task id="LOCAL-00027" summary="pyqt5 工作内容修改 添加选项操作">
+      <created>1604975058615</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1604975058616</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +507,8 @@
     <MESSAGE value="pyqt5添加下拉框选项" />
     <MESSAGE value="pyqt5子窗口和父窗口自建的数据操作" />
     <MESSAGE value="pyqt5" />
-    <option name="LAST_COMMIT_MESSAGE" value="pyqt5" />
+    <MESSAGE value="pyqt5 工作内容修改 添加选项操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="pyqt5 工作内容修改 添加选项操作" />
   </component>
   <component name="WindowStateProjectService">
     <state x="230" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604556678157">
@@ -545,10 +571,10 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="284" y="60" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1603933939907" />
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1604565578110">
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1604975074949">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1604565578110" />
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1604975074949" />
     <state x="580" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603336086544">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
