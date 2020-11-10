@@ -59,8 +59,7 @@ class Win(QWidget,tt.Ui_Form):
         if self.filepath == '':
             return "请先选择处理文件！！！"
 
-        datasets = pd.read_table(self.filepath, sep=',',encoding='gb18030')
-        print(datasets.head())
+        datasets = pd.read_table(self.filepath, sep=' ')
         #datasets.columns = ['X', 'Y', 'Z']
 
         # if self.radioLLA.isChecked()==True:
@@ -81,10 +80,15 @@ class Win(QWidget,tt.Ui_Form):
 
     def print_value_x(self, i):
         self.getvalue_x = i
+        print(i)
     def print_value_y(self, i):
         self.getvalue_y = i
+        print(i)
+
     def print_value_z(self, i):
         self.getvalue_z = i
+        print(i)
+
 
 
 if __name__=='__main__':
