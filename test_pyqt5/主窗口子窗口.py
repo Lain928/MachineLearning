@@ -3,6 +3,7 @@ from PyQt5 import QtCore
 from PyQt5.QtWidgets import QApplication, QMainWindow, QTableWidgetItem
 from ui.main import Ui_Form
 from ui.child import Ui_Child
+from ui.mis_tar import Ui_mis_tar
 
 
 class MainWindow(QMainWindow, Ui_Form):
@@ -19,6 +20,8 @@ class MainWindow(QMainWindow, Ui_Form):
         self.ChildDialog.show()
         # 连接信号
         self.ChildDialog._signal.connect(self.getData)
+
+        pass
 
     def getData(self, parameter):
         self.m_showText.setText(parameter)
