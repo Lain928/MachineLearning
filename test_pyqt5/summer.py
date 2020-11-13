@@ -38,13 +38,10 @@ class summer:
 
     def print_value_x(self, i):
         self.getvalue_x = i
-        print(i)
     def print_value_y(self, i):
         self.getvalue_y = i
-        print(i)
     def print_value_z(self, i):
         self.getvalue_z = i
-        print(i)
 
 
 class MainWindow(QMainWindow, Ui_Main):
@@ -172,7 +169,6 @@ class Mis_Tar_Win(QMainWindow, Ui_mis_tar,summer):
 
 
     def plotting_mis_tar(self):
-        print("sdasdasdas")
         datasets = pd.read_table(self.filepath, sep=',',encoding='gb18030')
         self.helper_poltting(datasets)
         pass
