@@ -111,6 +111,7 @@ class ChildWin(QMainWindow, Ui_three_dim,summer):
         ax.set_xlabel(self.getvalue_x)
         ax.set_ylabel(self.getvalue_y)
         ax.set_zlabel(self.getvalue_z)
+        ax.set_title("数据分析")
         plt.show()
 
 class Mis_Tar_Win(QMainWindow, Ui_mis_tar,summer):
@@ -124,12 +125,12 @@ class Mis_Tar_Win(QMainWindow, Ui_mis_tar,summer):
 
 
     def helper_poltting(self,dataset):
-        xdata1 = dataset.loc[:, '导弹经度']
-        ydata1 = dataset.loc[:, '导弹纬度']
+        xdata1 = dataset.loc[:, '导弹经度']/ 3.141593 * 180
+        ydata1 = dataset.loc[:, '导弹纬度']/ 3.141593 * 180
         zdata1 = dataset.loc[:, '导弹高度']
 
-        xdata2 = dataset.loc[:, '目标经度']
-        ydata2 = dataset.loc[:, '目标纬度']
+        xdata2 = dataset.loc[:, '目标经度']/ 3.141593 * 180
+        ydata2 = dataset.loc[:, '目标纬度']/ 3.141593 * 180
         zdata2 = dataset.loc[:, '目标高度']
 
         rows = dataset.shape[0]
@@ -149,19 +150,13 @@ class Mis_Tar_Win(QMainWindow, Ui_mis_tar,summer):
         ax.set_xlabel('经度')
         ax.set_ylabel('纬度')
         ax.set_zlabel('高度')
-        ax.set_title("导弹弹道数据分析")
+        ax.set_title("弹目交互数据分析")
 
         # 对交汇点设置文本标注信息
-        axis_mis = "mis_lon:" + str(round(last_mis_x / 3.14 * 180, 2)) + "\n" \
-                   + "mis_lat:" + str(round(last_mis_y / 3.14 * 180, 2)) \
-                   + "\n" + "mis_alt:" + str(round(last_mis_z))
-        ax.text(last_mis_x, last_mis_y, last_mis_z + 2000.0, axis_mis, color='blue')
-        ax.scatter(last_mis_x, last_tar_y, last_tar_z, marker="v", c="blue")
-
-        axis_tar = "tar_lon:" + str(round(last_tar_x / 3.14 * 180, 2)) + "\n" \
-                   + "tar_lat:" + str(round(last_tar_y / 3.14 * 180, 2)) \
-                   + "\n" + "tar_alt:" + str(round(last_tar_z))
-        ax.text(last_tar_x, last_tar_y, last_tar_z - 6000.0, axis_tar, color='blue')
+        axis_tar = "爆炸点经度:" + str(round(last_tar_x, 2)) + "\n" \
+                   + "爆炸点维度:" + str(round(last_tar_y, 2)) \
+                   + "\n" + "爆炸点高度:" + str(round(last_tar_z))
+        ax.text(last_tar_x, last_tar_y, last_tar_z, axis_tar, color='blue')
         ax.scatter(last_tar_x, last_tar_y, last_tar_z, marker="v", c="blue")
 
         plt.legend()
