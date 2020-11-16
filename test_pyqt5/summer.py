@@ -102,9 +102,21 @@ class ChildWin(QMainWindow, Ui_three_dim,summer):
     def plotting_3d(self):
         datasets = pd.read_table(self.filepath, sep=',',encoding='gb18030')
         rows = datasets.shape[0]
-        xdata = datasets[self.getvalue_x]
-        ydata = datasets[self.getvalue_y]
-        zdata = datasets[self.getvalue_z]
+        if self.getvalue_x == '导弹经度' or self.getvalue_x == '导弹纬度' \
+                or self.getvalue_x == '目标纬度' or self.getvalue_x == '目标经度':
+            xdata = datasets[self.getvalue_x] /3.1415927 *180
+        else:
+            xdata = datasets[self.getvalue_x]
+        if self.getvalue_y == '导弹经度' or self.getvalue_y == '导弹纬度' \
+                or self.getvalue_y == '目标纬度' or self.getvalue_y == '目标经度':
+            ydata = datasets[self.getvalue_y]/3.1415927 *180
+        else:
+            ydata = datasets[self.getvalue_y]
+        if self.getvalue_y == '导弹经度' or self.getvalue_y == '导弹纬度' \
+                or self.getvalue_y == '目标纬度' or self.getvalue_y == '目标经度':
+            zdata = datasets[self.getvalue_z]/3.1415927 *180
+        else:
+            zdata = datasets[self.getvalue_z]
         fig = plt.figure()
         ax = fig.gca(projection='3d')
         ax.plot(xdata, ydata, zdata,color='red')
@@ -133,6 +145,8 @@ class Mis_Tar_Win(QMainWindow, Ui_mis_tar,summer):
         ydata2 = dataset.loc[:, '目标纬度']/ 3.141593 * 180
         zdata2 = dataset.loc[:, '目标高度']
 
+        last_pos = dataset.loc[:, '弹目距离']
+
         rows = dataset.shape[0]
         # 交汇点 导弹坐标信息
         last_mis_x = xdata1[rows - 1]
@@ -142,6 +156,9 @@ class Mis_Tar_Win(QMainWindow, Ui_mis_tar,summer):
         last_tar_x = xdata2[rows - 1]
         last_tar_y = ydata2[rows - 1]
         last_tar_z = zdata2[rows - 1]
+        # 提取爆炸点的弹目距离，用于判断是否会爆炸
+        last_pos_bao = last_pos[rows - 1]
+        print("最后爆炸点为:",last_pos_bao)
 
         fig = plt.figure()
         ax = fig.gca(projection='3d')
@@ -152,12 +169,19 @@ class Mis_Tar_Win(QMainWindow, Ui_mis_tar,summer):
         ax.set_zlabel('高度')
         ax.set_title("弹目交互数据分析")
 
-        # 对交汇点设置文本标注信息
-        axis_tar = "爆炸点经度:" + str(round(last_tar_x, 2)) + "\n" \
-                   + "爆炸点维度:" + str(round(last_tar_y, 2)) \
-                   + "\n" + "爆炸点高度:" + str(round(last_tar_z))
-        ax.text(last_tar_x, last_tar_y, last_tar_z, axis_tar, color='blue')
-        ax.scatter(last_tar_x, last_tar_y, last_tar_z, marker="v", c="blue")
+
+        if last_pos_bao < 10:
+            # 对交汇点设置文本标注信息
+            axis_tar = "爆炸点经度:" + str(round(last_tar_x, 2)) + "\n" \
+                       + "爆炸点纬度:" + str(round(last_tar_y, 2)) \
+                       + "\n" + "爆炸点高度:" + str(round(last_tar_z))
+            ax.text(last_tar_x, last_tar_y, last_tar_z, axis_tar, color='blue')
+            ax.scatter(last_tar_x, last_tar_y, last_tar_z, marker="v", c="blue")
+        else:
+            # 对交汇点设置文本标注信息
+            axis_tar1 = "未炸毁目标，弹幕距离为" + str(round(last_pos_bao, 2))
+            ax.text(last_tar_x, last_tar_y, last_tar_z, axis_tar1, color='blue')
+            ax.scatter(last_tar_x, last_tar_y, last_tar_z, marker="v", c="blue")
 
         plt.legend()
         plt.show()
@@ -173,6 +197,9 @@ class TwoWin(QMainWindow, Ui_Two_Dim,summer):
         super(TwoWin, self).__init__()
         self.setupUi(self)
         self.filepath = ''
+        self.getvalue_x = '导弹距离'
+        self.getvalue_y = '导弹高度'
+
         self.btn_two_choose.clicked.connect(lambda: self.getfilepath(2))
         self.btn_two_run.clicked.connect(self.poltting_2d)
         self.btn_two_close.clicked.connect(self.close)
@@ -181,8 +208,8 @@ class TwoWin(QMainWindow, Ui_Two_Dim,summer):
         self.Box_two_x.addItems(box_items)
         self.Box_two_y.addItems(box_items)
         # 下拉框默认选项
-        self.Box_two_x.setCurrentIndex(0)  # 设置默认值
-        self.Box_two_y.setCurrentIndex(1)  # 设置默认值
+        self.Box_two_x.setCurrentIndex(3)  # 设置默认值
+        self.Box_two_y.setCurrentIndex(2)  # 设置默认值
         # 信号 x y z
         self.Box_two_x.currentIndexChanged[str].connect(self.print_value_x)  # 条目发生改变，发射信号，传递条目内容
         self.Box_two_y.currentIndexChanged[str].connect(self.print_value_y)  # 条目发生改变，发射信号，传递条目内容
@@ -192,12 +219,12 @@ class TwoWin(QMainWindow, Ui_Two_Dim,summer):
         datasets = pd.read_table(self.filepath, sep=',',encoding='gb18030')
         xdata = datasets[self.getvalue_x]
         ydata = datasets[self.getvalue_y]
+
         plt.plot(xdata, ydata,color='red')
         plt.xlabel(self.getvalue_x)
-        plt.ylabel(self.getvalue_y)
+        plt.ylabel(self.getvalue_x)
         plt.grid()
         plt.show()
-        pass
 
 
 if __name__ == '__main__':
