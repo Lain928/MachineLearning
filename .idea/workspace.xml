@@ -25,14 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="pyqt5 修改二维绘图下的bug及相应坐标转换">
-      <change afterPath="$PROJECT_DIR$/work/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/三维拟合.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pyqt5/summer.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/summer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pyqt5/ui/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/ui/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pyqt5/ui/main.ui" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/ui/main.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/二维绘图.py" beforeDir="false" afterPath="$PROJECT_DIR$/work/二维绘图.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/拟合曲线.py" beforeDir="false" afterPath="$PROJECT_DIR$/work/拟合曲线.py" afterDir="false" />
+    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="新添加项目">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +50,6 @@
     <setting file="file://$PROJECT_DIR$/test_pyqt5/test.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/机器学习/sklearn_决策树.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/机器学习/sklearn_k_means.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/三维绘图加gui/code.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/机器学习/sklearn_降维.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/work/三维拟合.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/机器学习/sklearn_逻辑回归.py" root0="SKIP_INSPECTION" />
@@ -69,6 +62,7 @@
     <setting file="file://$PROJECT_DIR$/test_pyqt5/mytestqt.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1jDNvFWbfjviuMQWiVzNKInAAcD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -76,7 +70,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../毕设/code/PathPredictNusc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -673,7 +667,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605495566441</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="新添加项目">
+      <created>1606188242509</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1606188242509</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -701,7 +702,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="决策树" />
     <MESSAGE value="将名称和重要度进行绑定" />
     <MESSAGE value="随机森林和参数搜索-网格搜索" />
     <MESSAGE value="预处理和特征工程" />
@@ -726,7 +726,8 @@
     <MESSAGE value="pyqt5删除打印数据" />
     <MESSAGE value="pyqt5 修改" />
     <MESSAGE value="pyqt5 修改二维绘图下的bug及相应坐标转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="pyqt5 修改二维绘图下的bug及相应坐标转换" />
+    <MESSAGE value="新添加项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="新添加项目" />
   </component>
   <component name="WindowStateProjectService">
     <state x="230" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604556678157">
@@ -789,10 +790,10 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="284" y="60" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1605335742889" />
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1605495622175">
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1606188253022">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1605495622175" />
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1606188253022" />
     <state x="580" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603336086544">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
