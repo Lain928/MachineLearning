@@ -2,15 +2,18 @@ import sys
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import pandas as pd
+import numpy as np
 import ui.untitled as tt
+#from scipy.interpolate import spline
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget,QFileDialog
-plt.rcParams['font.sans-serif'] = ['KaiTi']
-plt.rcParams['axes.unicode_minus'] = False
 import math
 from ui.main import Ui_Main
 from ui.mis_tar import Ui_mis_tar
 from ui.threedim import Ui_three_dim
 from ui.twodim import Ui_Two_Dim
+plt.rcParams['font.sans-serif'] = ['KaiTi']
+plt.rcParams['axes.unicode_minus'] = False
+
 
 box_items = ['导弹经度', '导弹纬度', '导弹高度', '导弹距离', '导弹速度', '导弹过载', '目标高度', '弹目距离', '目标经度', '目标纬度', '目标速度']
 
@@ -54,7 +57,6 @@ class MainWindow(QMainWindow, Ui_Main):
         self.radioBtnMis_Tar.setChecked(False)
         self.pushBtnRun.clicked.connect(self.onClicked)
         self.pushBtnClose.clicked.connect(self.close)
-        # self.m_btnMain.clicked.connect(self.onClicked)
         # 一定要在主窗口类的初始化函数中对子窗口进行实例化，如果在其他函数中实例化子窗口
         # 可能会出现子窗口闪退的问题
         self.ChildDialog = ChildWin()
@@ -104,16 +106,24 @@ class ChildWin(QMainWindow, Ui_three_dim,summer):
         rows = datasets.shape[0]
         if self.getvalue_x == '导弹经度' or self.getvalue_x == '导弹纬度' \
                 or self.getvalue_x == '目标纬度' or self.getvalue_x == '目标经度':
+            # arr_x = datasets[self.getvalue_x].values / 3.1415927 * 180
+            # xdata1 = np.linspace(arr_x[200:].min(),arr_x[200:].max(),rows-200)
+
             xdata = datasets[self.getvalue_x] /3.1415927 *180
         else:
             xdata = datasets[self.getvalue_x]
         if self.getvalue_y == '导弹经度' or self.getvalue_y == '导弹纬度' \
                 or self.getvalue_y == '目标纬度' or self.getvalue_y == '目标经度':
+            # arr_y = datasets[self.getvalue_y].values / 3.1415927 * 180
+            # ydata1 = np.linspace(arr_y[200:].min(),arr_y[200:].max(),rows-200)
+
             ydata = datasets[self.getvalue_y]/3.1415927 *180
         else:
             ydata = datasets[self.getvalue_y]
-        if self.getvalue_y == '导弹经度' or self.getvalue_y == '导弹纬度' \
-                or self.getvalue_y == '目标纬度' or self.getvalue_y == '目标经度':
+        if self.getvalue_z == '导弹经度' or self.getvalue_z == '导弹纬度' \
+                or self.getvalue_z == '目标纬度' or self.getvalue_z == '目标经度':
+            # arr_z = datasets[self.getvalue_z].values / 3.1415927 * 180
+            # zdata = np.linspace(arr_z.min(),arr_z.max(),rows)
             zdata = datasets[self.getvalue_z]/3.1415927 *180
         else:
             zdata = datasets[self.getvalue_z]
@@ -217,8 +227,20 @@ class TwoWin(QMainWindow, Ui_Two_Dim,summer):
 
     def poltting_2d(self):
         datasets = pd.read_table(self.filepath, sep=',',encoding='gb18030')
-        xdata = datasets[self.getvalue_x]
-        ydata = datasets[self.getvalue_y]
+        rows = datasets.shape[0]
+        if self.getvalue_x == '导弹经度' or self.getvalue_x == '导弹纬度' \
+                or self.getvalue_x == '目标纬度' or self.getvalue_x == '目标经度':
+            arr_x = datasets[self.getvalue_x].values
+            xdata = np.linspace(arr_x.min(),arr_x.max(),rows)
+        else:
+            xdata = datasets[self.getvalue_x]
+        if self.getvalue_y == '导弹经度' or self.getvalue_y == '导弹纬度' \
+                or self.getvalue_y == '目标纬度' or self.getvalue_y == '目标经度':
+            arr_y = datasets[self.getvalue_y].values
+            ydata = np.linspace(arr_y.min(),arr_y.max(),rows)
+        else:
+            ydata = datasets[self.getvalue_y]
+
 
         plt.plot(xdata, ydata,color='red')
         plt.xlabel(self.getvalue_x)
