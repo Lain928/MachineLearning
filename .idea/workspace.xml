@@ -25,8 +25,45 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="pyqt5下拉框添加选项">
+    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="添加tf2.1">
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/.idea/RS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/LFM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/LFM_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/MatrixFactorizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/Recommend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/User-Based.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/accuracy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/ml-latest-small/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/ml-latest-small/links.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/ml-latest-small/movies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/ml-latest-small/ratings.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/ml-latest-small/tags.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/model_selection/split.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/model_selection/validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/preditction_algorithms/algo_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/preditction_algorithms/knns.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/recommend2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/trainset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/RS/wide_deep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/python学习/Resources/MVI_20011.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/python学习/Resources/MVI_20011.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/python学习/Resources/新建文本文档 (2).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/python学习/Resources/新建文本文档.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/python学习/读写文件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/tensorflow学习/RNN学习.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/tensorflow学习/wide_deep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF-2.1/tensorflow学习/超参数搜索.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF-2.1/tf2_notes/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF-2.1/tf2_notes/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF-2.1/tf2_notes/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -695,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606270360572</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="删除tf2.1">
+      <created>1606270843358</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1606270843358</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -723,8 +767,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="预处理和特征工程" />
-    <MESSAGE value="不知道是啥" />
     <MESSAGE value="降维" />
     <MESSAGE value="逻辑回归" />
     <MESSAGE value="第一次上传" />
@@ -748,7 +790,9 @@
     <MESSAGE value="新添加项目" />
     <MESSAGE value="删除某些项目" />
     <MESSAGE value="pyqt5下拉框添加选项" />
-    <option name="LAST_COMMIT_MESSAGE" value="pyqt5下拉框添加选项" />
+    <MESSAGE value="删除tf2.1" />
+    <MESSAGE value="添加tf2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加tf2.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="230" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604556678157">
@@ -811,10 +855,10 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="284" y="60" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1606270474316" />
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1606270770432">
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1606270852439">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1606270770432" />
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1606270852439" />
     <state x="580" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603336086544">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
