@@ -25,8 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="新添加项目">
+    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="删除某些项目">
+      <change beforePath="$PROJECT_DIR$/.idea/MachineLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MachineLearning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_pyqt5/summer.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/summer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +97,69 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/三维导弹加目标.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="三维拟合" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/三维拟合.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="三维拟合" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/三维拟合.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="拟合曲线" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/拟合曲线.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,69 +328,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/二维绘图.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="三维拟合" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/三维拟合.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="三维拟合" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/三维拟合.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="拟合曲线" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/拟合曲线.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -674,7 +677,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606188242509</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="删除某些项目">
+      <created>1606188671201</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1606188671201</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -702,7 +712,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="将名称和重要度进行绑定" />
     <MESSAGE value="随机森林和参数搜索-网格搜索" />
     <MESSAGE value="预处理和特征工程" />
     <MESSAGE value="不知道是啥" />
@@ -727,7 +736,8 @@
     <MESSAGE value="pyqt5 修改" />
     <MESSAGE value="pyqt5 修改二维绘图下的bug及相应坐标转换" />
     <MESSAGE value="新添加项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="新添加项目" />
+    <MESSAGE value="删除某些项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除某些项目" />
   </component>
   <component name="WindowStateProjectService">
     <state x="230" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604556678157">
@@ -754,22 +764,22 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="555" y="250" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1606116422466" />
-    <state width="1528" height="142" key="GridCell.Tab.0.bottom" timestamp="1606126076691">
+    <state width="1528" height="240" key="GridCell.Tab.0.bottom" timestamp="1606269562890">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="142" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1606126076691" />
-    <state width="1528" height="142" key="GridCell.Tab.0.center" timestamp="1606126076691">
+    <state width="1528" height="240" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1606269562890" />
+    <state width="1528" height="240" key="GridCell.Tab.0.center" timestamp="1606269562889">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="142" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1606126076691" />
-    <state width="1528" height="142" key="GridCell.Tab.0.left" timestamp="1606126076691">
+    <state width="1528" height="240" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1606269562889" />
+    <state width="1528" height="240" key="GridCell.Tab.0.left" timestamp="1606269562889">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="142" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1606126076691" />
-    <state width="1528" height="142" key="GridCell.Tab.0.right" timestamp="1606126076691">
+    <state width="1528" height="240" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1606269562889" />
+    <state width="1528" height="240" key="GridCell.Tab.0.right" timestamp="1606269562890">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="142" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1606126076691" />
+    <state width="1528" height="240" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1606269562890" />
     <state width="1528" height="229" key="GridCell.Tab.1.bottom" timestamp="1606126076676">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
@@ -786,14 +796,14 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state width="1528" height="229" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1606126076676" />
-    <state x="284" y="60" key="SettingsEditor" timestamp="1605335742889">
+    <state x="284" y="60" key="SettingsEditor" timestamp="1606269746679">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="284" y="60" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1605335742889" />
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1606188253022">
+    <state x="284" y="60" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1606269746679" />
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1606188680331">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1606188253022" />
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1606188680331" />
     <state x="580" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603336086544">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
@@ -809,13 +819,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test_pyqt5/summer.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">

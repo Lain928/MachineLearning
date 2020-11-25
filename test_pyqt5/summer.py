@@ -207,19 +207,19 @@ class TwoWin(QMainWindow, Ui_Two_Dim,summer):
         super(TwoWin, self).__init__()
         self.setupUi(self)
         self.filepath = ''
-        self.getvalue_x = '导弹距离'
+        self.getvalue_x = '仿真时间'
         self.getvalue_y = '导弹高度'
 
         self.btn_two_choose.clicked.connect(lambda: self.getfilepath(2))
         self.btn_two_run.clicked.connect(self.poltting_2d)
         self.btn_two_close.clicked.connect(self.close)
-
+        two_box_items = ['仿真时间','导弹经度', '导弹纬度', '导弹高度', '导弹距离', '导弹速度', '导弹过载', '目标高度', '弹目距离', '目标经度', '目标纬度', '目标速度']
         # 下拉框
-        self.Box_two_x.addItems(box_items)
-        self.Box_two_y.addItems(box_items)
+        self.Box_two_x.addItems(two_box_items)
+        self.Box_two_y.addItems(two_box_items)
         # 下拉框默认选项
-        self.Box_two_x.setCurrentIndex(3)  # 设置默认值
-        self.Box_two_y.setCurrentIndex(2)  # 设置默认值
+        self.Box_two_x.setCurrentIndex(0)  # 设置默认值
+        self.Box_two_y.setCurrentIndex(3)  # 设置默认值
         # 信号 x y z
         self.Box_two_x.currentIndexChanged[str].connect(self.print_value_x)  # 条目发生改变，发射信号，传递条目内容
         self.Box_two_y.currentIndexChanged[str].connect(self.print_value_y)  # 条目发生改变，发射信号，传递条目内容
@@ -244,7 +244,7 @@ class TwoWin(QMainWindow, Ui_Two_Dim,summer):
 
         plt.plot(xdata, ydata,color='red')
         plt.xlabel(self.getvalue_x)
-        plt.ylabel(self.getvalue_x)
+        plt.ylabel(self.getvalue_y)
         plt.grid()
         plt.show()
 
