@@ -25,12 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="删除某些项目">
-      <change beforePath="$PROJECT_DIR$/.idea/MachineLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MachineLearning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pyqt5/summer.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pyqt5/summer.py" afterDir="false" />
-    </list>
+    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="pyqt5下拉框添加选项" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -684,7 +679,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606188671201</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="pyqt5下拉框添加选项">
+      <created>1606270103872</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1606270103872</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -712,7 +714,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="随机森林和参数搜索-网格搜索" />
     <MESSAGE value="预处理和特征工程" />
     <MESSAGE value="不知道是啥" />
     <MESSAGE value="降维" />
@@ -737,7 +738,8 @@
     <MESSAGE value="pyqt5 修改二维绘图下的bug及相应坐标转换" />
     <MESSAGE value="新添加项目" />
     <MESSAGE value="删除某些项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除某些项目" />
+    <MESSAGE value="pyqt5下拉框添加选项" />
+    <option name="LAST_COMMIT_MESSAGE" value="pyqt5下拉框添加选项" />
   </component>
   <component name="WindowStateProjectService">
     <state x="230" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604556678157">
@@ -800,10 +802,10 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="284" y="60" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1606269746679" />
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1606188680331">
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1606270257819">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1606188680331" />
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1606270257819" />
     <state x="580" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603336086544">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
