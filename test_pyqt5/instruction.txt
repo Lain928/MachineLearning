@@ -10,4 +10,8 @@ pyinstaller [主文件] -p [其他文件1] -p [其他文件2]
 pyinstaller main.py -p mysql.py -p other.py --hidden-import mysql --hidden-import other
 pyinstaller -F -w test.py -p ./ui/untitled.py --hidden-import untitled
 
+
+pyinstaller -F -w new_summer.py -p ./ui/new_main.py --hidden-import new_main
+
+
 pyinstaller -F -w summer.py -p ./ui/main.py -p ./ui/threedim.py -p ./ui/twodim.py -p ./ui/mis_tar.py --hidden-import main --hidden-import threedim --hidden-import twodim --hidden-import mis_tar

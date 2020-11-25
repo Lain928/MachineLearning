@@ -6,19 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>144</height>
+    <width>415</width>
+    <height>138</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QWidget" name="layoutWidget">
+  <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>8</y>
-     <width>361</width>
+     <x>11</x>
+     <y>11</y>
+     <width>391</width>
      <height>121</height>
     </rect>
    </property>

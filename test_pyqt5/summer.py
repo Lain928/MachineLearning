@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 import ui.untitled as tt
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget,QFileDialog
+from PyQt5.QtCore import Qt
 import math
 from ui.main import Ui_Main
 from ui.mis_tar import Ui_mis_tar
@@ -37,6 +38,22 @@ class summer:
         if num == 3:
             self.lineEdit_mis.setText(directory[0])
 
+    # -->>>批量禁用comboBox项目>>>>>>>>-
+    def disable_item_comboBox(self, cBox):
+        """
+        将下拉按钮中的某些项目批量禁用
+        :param cBox: comboBox对象
+        :param List: 需要禁用的项目,列表数据,如[1,2,5,6]
+        :param v: 0为禁用,1|32为解除
+        """
+        for i in range(12):
+            # index = cBox.model().index(List[i], 0)  # 选择需要设定的项目
+            # print(List[i])
+            # cBox.model().setData(i, 0, 255)  # 禁用comboBox的指定项目
+            # 序号为2的选项（第三个）不可选
+            cBox.setItemData(i, 0, Qt.UserRole - 1);
+            # 选项背景置灰
+            cBox.setItemData(i, Qt.lightGray, Qt.BackgroundColorRole);
 
     def print_value_x(self, i):
         self.getvalue_x = i
@@ -167,7 +184,6 @@ class Mis_Tar_Win(QMainWindow, Ui_mis_tar,summer):
         last_tar_z = zdata2[rows - 1]
         # 提取爆炸点的弹目距离，用于判断是否会爆炸
         last_pos_bao = last_pos[rows - 1]
-        print("最后爆炸点为:",last_pos_bao)
 
         fig = plt.figure()
         ax = fig.gca(projection='3d')
@@ -180,10 +196,10 @@ class Mis_Tar_Win(QMainWindow, Ui_mis_tar,summer):
 
 
         if last_pos_bao < 10:
-            # 对交汇点设置文本标注信息
-            axis_tar = "爆炸点经度:" + str(round(last_tar_x, 2)) + "\n" \
-                       + "爆炸点纬度:" + str(round(last_tar_y, 2)) \
-                       + "\n" + "爆炸点高度:" + str(round(last_tar_z))
+            # 对交汇点设置文本标注信息 round(),函数为保留几位小数
+            axis_tar = "爆炸点经度:" + str(round(last_tar_x, 2)) + "\n" + \
+                       "爆炸点纬度:" + str(round(last_tar_y, 2)) + "\n" + \
+                       "爆炸点高度:" + str(round(last_tar_z))
             ax.text(last_tar_x, last_tar_y, last_tar_z, axis_tar, color='blue')
             ax.scatter(last_tar_x, last_tar_y, last_tar_z, marker="v", c="blue")
         else:
@@ -219,6 +235,9 @@ class TwoWin(QMainWindow, Ui_Two_Dim,summer):
         # 下拉框默认选项
         self.Box_two_x.setCurrentIndex(0)  # 设置默认值
         self.Box_two_y.setCurrentIndex(3)  # 设置默认值
+        # 设置下拉框中的内容无法选择
+        # self.disable_item_comboBox(self.Box_two_y)
+        self.Box_two_y.setHidden(True)# 设置控件是否隐藏
         # 信号 x y z
         self.Box_two_x.currentIndexChanged[str].connect(self.print_value_x)  # 条目发生改变，发射信号，传递条目内容
         self.Box_two_y.currentIndexChanged[str].connect(self.print_value_y)  # 条目发生改变，发射信号，传递条目内容
