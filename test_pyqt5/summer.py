@@ -4,7 +4,6 @@ from mpl_toolkits.mplot3d import Axes3D
 import pandas as pd
 import numpy as np
 import ui.untitled as tt
-#from scipy.interpolate import spline
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget,QFileDialog
 import math
 from ui.main import Ui_Main

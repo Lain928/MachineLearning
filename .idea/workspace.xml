@@ -25,8 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="添加tf2.1_note">
+    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="删除深度学习相关文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/三维拟合.py" beforeDir="false" afterPath="$PROJECT_DIR$/work/三维拟合.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,6 @@
     <setting file="file://$PROJECT_DIR$/test_pyqt5/summer.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/机器学习/sklearn_随机森林.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test_pyqt5/主窗口子窗口.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/深度学习/test_GCN.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/work/拟合曲线.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test_pyqt5/mytestqt.py" root0="SKIP_INSPECTION" />
   </component>
@@ -80,7 +80,7 @@
       <recent name="D:\Code\MachineLearning\ximid" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.summer">
+  <component name="RunManager" selected="Python.三维拟合">
     <configuration name="三维导弹加目标" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,6 +94,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/三维导弹加目标.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="三维拟合" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/三维拟合.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -401,9 +422,11 @@
       <item itemvalue="Python.summer" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.三维拟合" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.三维拟合" />
         <item itemvalue="Python.summer" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.test" />
@@ -723,7 +746,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606271401524</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="删除深度学习相关文件">
+      <created>1606287278520</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1606287278520</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -751,7 +781,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="逻辑回归" />
     <MESSAGE value="第一次上传" />
     <MESSAGE value="pyqt5第一次使用" />
     <MESSAGE value="使用pyqt5进行弹道数据工具的制作" />
@@ -776,7 +805,8 @@
     <MESSAGE value="删除tf2.1" />
     <MESSAGE value="添加tf2.1" />
     <MESSAGE value="添加tf2.1_note" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加tf2.1_note" />
+    <MESSAGE value="删除深度学习相关文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除深度学习相关文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="230" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604556678157">
@@ -803,46 +833,46 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="555" y="250" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1606116422466" />
-    <state width="1528" height="240" key="GridCell.Tab.0.bottom" timestamp="1606271074903">
+    <state width="1528" height="142" key="GridCell.Tab.0.bottom" timestamp="1606288763510">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="240" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1606271074903" />
-    <state width="1528" height="240" key="GridCell.Tab.0.center" timestamp="1606271074903">
+    <state width="1528" height="142" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1606288763510" />
+    <state width="1528" height="142" key="GridCell.Tab.0.center" timestamp="1606288763510">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="240" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1606271074903" />
-    <state width="1528" height="240" key="GridCell.Tab.0.left" timestamp="1606271074903">
+    <state width="1528" height="142" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1606288763510" />
+    <state width="1528" height="142" key="GridCell.Tab.0.left" timestamp="1606288763509">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="240" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1606271074903" />
-    <state width="1528" height="240" key="GridCell.Tab.0.right" timestamp="1606271074903">
+    <state width="1528" height="142" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1606288763509" />
+    <state width="1528" height="142" key="GridCell.Tab.0.right" timestamp="1606288763510">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="240" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1606271074903" />
-    <state width="1528" height="229" key="GridCell.Tab.1.bottom" timestamp="1606126076676">
+    <state width="1528" height="142" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1606288763510" />
+    <state width="1528" height="229" key="GridCell.Tab.1.bottom" timestamp="1606287599575">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="229" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1606126076676" />
-    <state width="1528" height="229" key="GridCell.Tab.1.center" timestamp="1606126076676">
+    <state width="1528" height="229" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1606287599575" />
+    <state width="1528" height="229" key="GridCell.Tab.1.center" timestamp="1606287599575">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="229" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1606126076676" />
-    <state width="1528" height="229" key="GridCell.Tab.1.left" timestamp="1606126076676">
+    <state width="1528" height="229" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1606287599575" />
+    <state width="1528" height="229" key="GridCell.Tab.1.left" timestamp="1606287599575">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="229" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1606126076676" />
-    <state width="1528" height="229" key="GridCell.Tab.1.right" timestamp="1606126076676">
+    <state width="1528" height="229" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1606287599575" />
+    <state width="1528" height="229" key="GridCell.Tab.1.right" timestamp="1606287599575">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1528" height="229" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1606126076676" />
+    <state width="1528" height="229" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1606287599575" />
     <state x="284" y="60" key="SettingsEditor" timestamp="1606270474316">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="284" y="60" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1606270474316" />
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1606271465790">
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1606287285962">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1606271465790" />
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1606287285962" />
     <state x="580" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603336086544">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
