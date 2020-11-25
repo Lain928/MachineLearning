@@ -25,15 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="添加tf2.1">
-      <change beforePath="$PROJECT_DIR$/tf2_notes/class5/CIFAR10_CNN/checkpoint/LeNet5.ckpt.data-00000-of-00002" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf2_notes/class5/CIFAR10_CNN/checkpoint/LeNet5.ckpt.data-00001-of-00002" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf2_notes/class5/CIFAR10_CNN/checkpoint/LeNet5.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf2_notes/class5/CIFAR10_CNN/checkpoint/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf2_notes/class6/checkpoint/LSTM_stock.ckpt.data-00000-of-00002" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf2_notes/class6/checkpoint/LSTM_stock.ckpt.data-00001-of-00002" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf2_notes/class6/checkpoint/LSTM_stock.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf2_notes/class6/checkpoint/checkpoint" beforeDir="false" />
+    <list default="true" id="a29921a4-b85b-4fa9-987f-b25a79c64c62" name="Default Changelist" comment="添加tf2.1_note">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -723,7 +716,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606271036604</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="添加tf2.1_note">
+      <created>1606271401524</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1606271401524</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -751,7 +751,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="降维" />
     <MESSAGE value="逻辑回归" />
     <MESSAGE value="第一次上传" />
     <MESSAGE value="pyqt5第一次使用" />
@@ -776,7 +775,8 @@
     <MESSAGE value="pyqt5下拉框添加选项" />
     <MESSAGE value="删除tf2.1" />
     <MESSAGE value="添加tf2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加tf2.1" />
+    <MESSAGE value="添加tf2.1_note" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加tf2.1_note" />
   </component>
   <component name="WindowStateProjectService">
     <state x="230" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604556678157">
@@ -839,10 +839,10 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="284" y="60" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1606270474316" />
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1606271262880">
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2" timestamp="1606271465790">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1606271262880" />
+    <state x="367" y="149" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1606271465790" />
     <state x="580" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603336086544">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
