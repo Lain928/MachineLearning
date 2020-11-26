@@ -1,17 +1,11 @@
 import sys
+import math
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import pandas as pd
 import numpy as np
-import ui.untitled as tt
-from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget,QFileDialog
+from PyQt5.QtWidgets import QApplication, QMainWindow,QFileDialog
 from PyQt5.QtCore import Qt
-import math
-from ui.main import Ui_Main
-from ui.mis_tar import Ui_mis_tar
-from ui.threedim import Ui_three_dim
-from ui.twodim import Ui_Two_Dim
-
 from ui.new_main import Ui_UI_New
 plt.rcParams['font.sans-serif'] = ['KaiTi']
 plt.rcParams['axes.unicode_minus'] = False
@@ -73,9 +67,9 @@ class new_summer(QMainWindow, Ui_UI_New):
             self.poltting_mis(datasets,rows)
             pass
 
-
+    # 设置下拉框和对应标签是否需要隐藏
     def use_3d(self):
-        self.label_x.setVisible(True) #  设置控件是否隐藏
+        self.label_x.setVisible(True) #  设置控件是否显示
         self.label_y.setVisible(True)
         self.label_z.setVisible(True)
         self.comboBox_x.setVisible(True)
