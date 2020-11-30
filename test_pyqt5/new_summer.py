@@ -4,7 +4,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import pandas as pd
 import numpy as np
 from PyQt5.QtWidgets import QApplication, QMainWindow,QFileDialog
-from ui.new_main import Ui_UI_New
+from test_pyqt5.ui.new_main import Ui_UI_New
 plt.rcParams['font.sans-serif'] = ['KaiTi']
 plt.rcParams['axes.unicode_minus'] = False
 
